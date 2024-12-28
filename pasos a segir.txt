@@ -1,0 +1,16 @@
+
+django-admin startproject core
+python -m venv venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+
+para ver si tu version a sido descargado segun los requirements
+python -m django --version
+
+levantamos ahora si entrando al donde se encuentra el archivo runserve
+python manage.py runserver
+
+
+
+
+
